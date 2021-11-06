@@ -65,6 +65,22 @@ export const fetchAllSwaps = async (): Promise<void> => {
 
   await fs.mkdir("data/", { recursive: true });
   await fs.writeFile(
+    "data/swaps.json",
+    JSON.stringify(
+      swapInfos.map((s) => ({
+        lp: s.poolMint,
+        token0: s.token0.mint,
+        token1: s.token1.mint,
+      })),
+      (_, v: unknown) => {
+        if (v instanceof PublicKey) {
+          return v.toString();
+        }
+        return v;
+      }
+    )
+  );
+  await fs.writeFile(
     "data/known-accounts.json",
     JSON.stringify(accounts, (_, v: unknown) => {
       if (v instanceof PublicKey) {
