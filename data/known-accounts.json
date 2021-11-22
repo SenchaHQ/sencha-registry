@@ -6,5 +6,145 @@
   {
     "coingeckoId": "tether",
     "account": "8WGWaAmfcsepnjrkSMcEeAPb1ftXAGEhhSVpwrFptSKo"
+  },
+  {
+    "coingeckoId": "larix",
+    "account": "FjB9AfVi5Z3AHm476UwnQHsPHh76sVm8PxkNRkbBmNa4"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "37KESoDGwdvMnYYZ3sFdQnAEXLiCxdUNxnfMNGf414vM"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "777YSjESphfGLTExbAFNmn5V4oW4Q4mjj3vGwPoAk4fL"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "2w4fH8hMmg8rMYoARU7k1ttPxmjM1Dq7FvccixHfgHE8"
+  },
+  {
+    "coingeckoId": "msol",
+    "account": "9UPFvxxnHhUnSK24BTTXqoNBHWoAvKo3j7DiCP9F1rjH"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "E4Ae15bUP1SYaNLE3B2NNdEL8GXodqGLPuJbKELcZrCL"
+  },
+  {
+    "coingeckoId": "raydium",
+    "account": "7QHc4DjKMtP2vmCPfrNNcgKdh43M9SCy53xzbzZ7rpng"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "9ZHDurFk7o3Gp8sgyNXfAohBsKVQpZQwZpfAHxA8CEBA"
+  },
+  {
+    "coingeckoId": "liq-protocol",
+    "account": "CmeP3JsoGpAZSeGALuuTbcFjm7EdJC7b4twzYgqT2Twu"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "iAS2MxNVUnp52WPgFWtPyoyExqDThtBdcR6qditaJJh"
+  },
+  {
+    "coingeckoId": "kin",
+    "account": "G6k6YAB75xG35U8tvjoFupbvPxcxgP2UMJsv7zzvVdKH"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "52885tuvLGeeShtwm1nrDAGnFcUmFgsTfGQdVwraoaFi"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "GjB2TFxJiEz2FfukTAtLefMbp2Yq5ZvxES9REcpGDQpn"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "HvsqvVTaVk8mdNk142D5tPvnQ8N9RLM6zaEgzv6DVcfe"
+  },
+  {
+    "coingeckoId": "star-atlas-dao",
+    "account": "BgkgQa4iWncaag53JLuR9VNzMRZ6e2LWcxSrYMiT88pn"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "8svX5XtFiZ9dCKCLnabyVYAoMQTyyJ3kfyrFXb5o6fHA"
+  },
+  {
+    "coingeckoId": "serum",
+    "account": "FqNyhV4ookcjxGq4beaU6kWVuKNKHM4eb7suL4NGsNqq"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "2xL4dmLkQAy5Jf1pHyBejXRhstWP89262yJ6RQP1fFfm"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "68ZcubpPLN1iPYNToq3LuvH1XPgs2xWENtDzy63HUdZt"
+  },
+  {
+    "coingeckoId": "parrot-protocol",
+    "account": "4yrc31o1rhHLHsEsiSJNZstJPgc7N6YxtM9jc3i9waaq"
+  },
+  {
+    "coingeckoId": "msol",
+    "account": "6iTnYDTk1STxLzf9LeGrgDn2uDvHSGn8K1Z8NAPQ8Q9D"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "AsHETa92121h9j2JYcB5zPMEriiyE1feNtv5QJVRrG2K"
+  },
+  {
+    "coingeckoId": "saber",
+    "account": "4YwNScziQ6E56g7AbxhtCY97jW73ZH982eJ5iTC4HLuJ"
+  },
+  {
+    "coingeckoId": "mercurial",
+    "account": "9N5WXgG8mgsayzmeA8ifJWZEaodZbepwuvLhyuUzoeHs"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "A4R431PcQxB93E6TiHKoU3vVqSTUa7wbTtTNaUR7uFnm"
+  },
+  {
+    "coingeckoId": "step-finance",
+    "account": "8uexWCmE6TCzh49UHLzNVji66q5SrA4fUL9tvLchgWHK"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "DsPzyhBsNzFkQdCRZjZuVQyRK654HjYkNg7JrmZTxk5B"
+  },
+  {
+    "coingeckoId": "serum",
+    "account": "56NECMh873ox6oiK7cSV8zgAVMXNuXgLUdBYYQ4Tx8Nc"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "7F1jxS7pkUtZ1ziaVB3ayDViQ7bmLiF5vVaMwru6Xi8a"
+  },
+  {
+    "coingeckoId": "ethereum",
+    "account": "3iSjd7oyWntzWkxfWsWU5e72XJRH5pqgb6irGqq14A2s"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "5t5ChmDWfEZHDMEc28gSn2umdAsUFxXH53Bsuc2nVQk7"
+  },
+  {
+    "coingeckoId": "grape-2",
+    "account": "9tDNZ5YyKcYHvey2P22QRApekCPczdxgqs4CYXPSh94Y"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "q8VUSKYndCUiHJZyDX9D9W3JEGqjdvLLTTALxvHgeNa"
+  },
+  {
+    "coingeckoId": "cropperfinance",
+    "account": "Ei5q3UKKzb64dKwWsvBZ2uYvoaXQZ9qjE6i1LFysgWuD"
+  },
+  {
+    "coingeckoId": "msol",
+    "account": "B9zvauFCAX3aukxXTpYdqBz5bAWWnCSbgngKuPKqFafC"
   }
 ]

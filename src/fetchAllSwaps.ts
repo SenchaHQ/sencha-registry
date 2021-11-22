@@ -77,26 +77,35 @@ export const fetchAllSwaps = async (): Promise<void> => {
           return v.toString();
         }
         return v;
-      }
+      },
+      2
     )
   );
   await fs.writeFile(
     "data/known-accounts.json",
-    JSON.stringify(accounts, (_, v: unknown) => {
-      if (v instanceof PublicKey) {
-        return v.toString();
-      }
-      return v;
-    })
+    JSON.stringify(
+      accounts,
+      (_, v: unknown) => {
+        if (v instanceof PublicKey) {
+          return v.toString();
+        }
+        return v;
+      },
+      2
+    )
   );
   await fs.writeFile(
     "data/unknown-accounts.json",
-    JSON.stringify(unknownAccounts, (_, v: unknown) => {
-      if (v instanceof PublicKey) {
-        return v.toString();
-      }
-      return v;
-    })
+    JSON.stringify(
+      unknownAccounts,
+      (_, v: unknown) => {
+        if (v instanceof PublicKey) {
+          return v.toString();
+        }
+        return v;
+      },
+      2
+    )
   );
   console.log(
     `Discovered and wrote ${accounts.length} known token reserves, ${unknownAccounts.length} unknown reserves.`
