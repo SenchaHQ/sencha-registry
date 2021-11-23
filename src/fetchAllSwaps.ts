@@ -1,10 +1,12 @@
 import { SignerWallet, SolanaProvider } from "@saberhq/solana-contrib";
+import { deserializeMint } from "@saberhq/token-utils";
 import type { SwapInfoData } from "@senchahq/sencha-sdk";
 import { SenchaSDK } from "@senchahq/sencha-sdk";
 import { StaticTokenListResolutionStrategy } from "@solana/spl-token-registry";
 import type { AccountInfo } from "@solana/web3.js";
 import { Connection, Keypair, PublicKey } from "@solana/web3.js";
 import * as fs from "fs/promises";
+import { zip } from "lodash";
 
 const TOKEN_LIST = new StaticTokenListResolutionStrategy().resolve();
 
@@ -28,6 +30,16 @@ export const fetchAllSwaps = async (): Promise<void> => {
         s.data
       )
     );
+
+  const mintKeys = swapInfos.map((swap) => swap.poolMint);
+  const mints = zip(
+    mintKeys,
+    (
+      await sencha.provider.connection.getMultipleAccountsInfo(
+        swapInfos.map((swap) => swap.poolMint)
+      )
+    ).map((s) => (s ? deserializeMint(s.data) : null))
+  );
 
   const accounts: { coingeckoId: string; account: PublicKey }[] = [];
   const unknownAccounts: { mint: PublicKey; account: PublicKey }[] = [];
@@ -85,11 +97,21 @@ export const fetchAllSwaps = async (): Promise<void> => {
     "data/swaps.json",
     JSON.stringify(
       swapInfos
-        .map((s) => ({
-          lp: s.poolMint.toString(),
-          token0: s.token0.mint.toString(),
-          token1: s.token1.mint.toString(),
-        }))
+        .map((s) => {
+          const decimals = mints.find((m) => m[0]?.equals(s.poolMint))?.[1]
+            ?.decimals;
+          if (typeof decimals !== "number") {
+            throw new Error(
+              `No decimals found for mint ${s.poolMint.toString()}`
+            );
+          }
+          return {
+            lp: s.poolMint.toString(),
+            token0: s.token0.mint.toString(),
+            token1: s.token1.mint.toString(),
+            decimals,
+          };
+        })
         .sort((a, b) => (a.lp < b.lp ? -1 : 1)),
       null,
       2
