@@ -84,17 +84,14 @@ export const fetchAllSwaps = async (): Promise<void> => {
   await fs.writeFile(
     "data/swaps.json",
     JSON.stringify(
-      swapInfos.map((s) => ({
-        lp: s.poolMint,
-        token0: s.token0.mint,
-        token1: s.token1.mint,
-      })),
-      (_, v: unknown) => {
-        if (v instanceof PublicKey) {
-          return v.toString();
-        }
-        return v;
-      },
+      swapInfos
+        .map((s) => ({
+          lp: s.poolMint.toString(),
+          token0: s.token0.mint.toString(),
+          token1: s.token1.mint.toString(),
+        }))
+        .sort((a, b) => (a.lp < b.lp ? -1 : 1)),
+      null,
       2
     )
   );
