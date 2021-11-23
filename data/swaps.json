@@ -124,5 +124,11 @@
     "token0": "CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT",
     "token1": "CowKesoLUaHSbAMaUxJUj7eodHHsaLsS65cy8NFyRDGP",
     "decimals": 6
+  },
+  {
+    "lp": "jXWR3mBofnAU1Gv4URvYTu3Yedkv7JZA8zHJzxXdzeA",
+    "token0": "ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond",
+    "token1": "CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT",
+    "decimals": 9
   }
 ]

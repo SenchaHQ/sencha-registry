@@ -150,5 +150,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "92aDuQX9qhBCsRgMdz23NBQ9YGHQbgj1SqkfKFE9tS9U"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "4dTYTTZUywAPALwVPzXEnLHst4XEnqLEH7o9Zyk5pUmx"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "XGt8MPm8DE9EbWdb3HZnah6KDqoe1JTUfQLxZcBr8ZQ"
   }
 ]
