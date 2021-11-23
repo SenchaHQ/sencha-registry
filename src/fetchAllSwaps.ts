@@ -31,6 +31,35 @@ export const fetchAllSwaps = async (): Promise<void> => {
 
   const accounts: { coingeckoId: string; account: PublicKey }[] = [];
   const unknownAccounts: { mint: PublicKey; account: PublicKey }[] = [];
+
+  const pushToken = ({
+    coingeckoId,
+    mint,
+    reserves,
+  }: {
+    coingeckoId?: string;
+    mint: PublicKey;
+    reserves: PublicKey;
+  }) => {
+    if (!coingeckoId) {
+      // treat CASH as USDC for accounting purposes
+      if (mint.toString() === "CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT") {
+        coingeckoId = "usd-coin";
+      }
+    }
+    if (coingeckoId) {
+      accounts.push({
+        coingeckoId,
+        account: reserves,
+      });
+    } else {
+      unknownAccounts.push({
+        mint,
+        account: reserves,
+      });
+    }
+  };
+
   swapInfos.forEach((swap) => {
     const token0 = TOKEN_LIST.find(
       (tok) => tok.address === swap.token0.mint.toString()
@@ -39,28 +68,16 @@ export const fetchAllSwaps = async (): Promise<void> => {
       (tok) => tok.address === swap.token1.mint.toString()
     );
 
-    if (token0?.extensions?.coingeckoId) {
-      accounts.push({
-        coingeckoId: token0.extensions.coingeckoId,
-        account: swap.token0.reserves,
-      });
-    } else {
-      unknownAccounts.push({
-        mint: swap.token0.mint,
-        account: swap.token0.reserves,
-      });
-    }
-    if (token1?.extensions?.coingeckoId) {
-      accounts.push({
-        coingeckoId: token1.extensions.coingeckoId,
-        account: swap.token1.reserves,
-      });
-    } else {
-      unknownAccounts.push({
-        mint: swap.token1.mint,
-        account: swap.token1.reserves,
-      });
-    }
+    pushToken({
+      coingeckoId: token0?.extensions?.coingeckoId,
+      mint: swap.token0.mint,
+      reserves: swap.token0.reserves,
+    });
+    pushToken({
+      coingeckoId: token1?.extensions?.coingeckoId,
+      mint: swap.token1.mint,
+      reserves: swap.token1.reserves,
+    });
   });
 
   await fs.mkdir("data/", { recursive: true });

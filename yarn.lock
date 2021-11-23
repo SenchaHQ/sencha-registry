@@ -264,8 +264,8 @@ __metadata:
     "@saberhq/eslint-config": ^1.7.4
     "@saberhq/solana-contrib": ^1.7.4
     "@saberhq/token-utils": ^1.7.4
-    "@senchahq/sencha-sdk": ^0.8.2
-    "@solana/spl-token-registry": ^0.2.378
+    "@senchahq/sencha-sdk": ^0.9.0
+    "@solana/spl-token-registry": ^0.2.396
     "@solana/web3.js": ^1.30.2
     "@types/bn.js": ^5.1.0
     "@types/eslint": ^8.2.0
@@ -278,7 +278,7 @@ __metadata:
     eslint-plugin-import: ^2.25.3
     husky: ^7.0.4
     jsbi: ^4.1.0
-    lint-staged: ^12.1.1
+    lint-staged: ^12.1.2
     lodash: ^4.17.21
     prettier: ^2.4.1
     ts-node: ^10.4.0
@@ -286,9 +286,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@senchahq/sencha-sdk@npm:^0.8.2":
-  version: 0.8.2
-  resolution: "@senchahq/sencha-sdk@npm:0.8.2"
+"@senchahq/sencha-sdk@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@senchahq/sencha-sdk@npm:0.9.0"
   dependencies:
     lodash.chunk: ^4.2.0
     lodash.mapvalues: ^4.6.0
@@ -303,7 +303,7 @@ __metadata:
     "@solana/web3.js": ^1.29.2
     bn.js: ^5.2.0
     jsbi: ^3.2.5
-  checksum: db7ccd6f94664fb828105e926bad9b25cdc1a2f7071f693aa8b1d49ee4d0e56813471a46260901692b341b2f6610dc1562c46ce8f4c4a3351570822dbf147033
+  checksum: b5eafad6cd3b8361d642ddedc2d1a56d753c7c3b8bf1c114fa9d888517e40dbb297a7226c078dd7414efe7fb2ca50e3ba488d645a6f3c9d75051bdac408f7c80
   languageName: node
   linkType: hard
 
@@ -316,12 +316,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/spl-token-registry@npm:^0.2.378":
-  version: 0.2.378
-  resolution: "@solana/spl-token-registry@npm:0.2.378"
+"@solana/spl-token-registry@npm:^0.2.396":
+  version: 0.2.396
+  resolution: "@solana/spl-token-registry@npm:0.2.396"
   dependencies:
     cross-fetch: 3.0.6
-  checksum: 89f976d3ed724216f61318bfa5ec6d3e57c61e5a86bc3309ab588ecd31ce8bb93c5c511730437a3f9c3d85a609694d38df2a1bd486c31c24a376a1128ea63507
+  checksum: 90a425a9977eb053565ee47ca1dd630cfe588e21bfbd35a840621c9f70bb199c6fb7d86ab45c8148c8758e1396fb2388b160ffc74244cdcd0aed5901774fdc5e
   languageName: node
   linkType: hard
 
@@ -2510,9 +2510,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^12.1.1":
-  version: 12.1.1
-  resolution: "lint-staged@npm:12.1.1"
+"lint-staged@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "lint-staged@npm:12.1.2"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -2530,7 +2530,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 1c4ec4cbccac7040b7d676f0e4f99d9e8d69360ec99d69cbfb12b6c27708ba8a076741712f1b45e67099fc640b1049a27cba8866a85a299a6048ab39d8e4faa7
+  checksum: ec84ce4f74d0d8fe314bd0b62fb5e0be64af692d1876f68c457116faef61b4b3b79d72df7819c248bfbb20c46e88fbe994128e7351e84bec7048263e00199925
   languageName: node
   linkType: hard
 

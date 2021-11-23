@@ -146,5 +146,9 @@
   {
     "coingeckoId": "msol",
     "account": "B9zvauFCAX3aukxXTpYdqBz5bAWWnCSbgngKuPKqFafC"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "92aDuQX9qhBCsRgMdz23NBQ9YGHQbgj1SqkfKFE9tS9U"
   }
 ]
