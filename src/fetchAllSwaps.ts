@@ -3,8 +3,8 @@ import { deserializeMint } from "@saberhq/token-utils";
 import type { SwapInfoData } from "@senchahq/sencha-sdk";
 import { SenchaSDK } from "@senchahq/sencha-sdk";
 import { StaticTokenListResolutionStrategy } from "@solana/spl-token-registry";
-import type { AccountInfo } from "@solana/web3.js";
-import { Connection, Keypair, PublicKey } from "@solana/web3.js";
+import type { AccountInfo, PublicKey } from "@solana/web3.js";
+import { Connection, Keypair } from "@solana/web3.js";
 import * as fs from "fs/promises";
 import { zip } from "lodash";
 
@@ -120,26 +120,20 @@ export const fetchAllSwaps = async (): Promise<void> => {
   await fs.writeFile(
     "data/known-accounts.json",
     JSON.stringify(
-      accounts,
-      (_, v: unknown) => {
-        if (v instanceof PublicKey) {
-          return v.toString();
-        }
-        return v;
-      },
+      accounts.map((a) => ({ ...a, account: a.account.toString() })),
+      null,
       2
     )
   );
   await fs.writeFile(
     "data/unknown-accounts.json",
     JSON.stringify(
-      unknownAccounts,
-      (_, v: unknown) => {
-        if (v instanceof PublicKey) {
-          return v.toString();
-        }
-        return v;
-      },
+      unknownAccounts.map((a) => ({
+        ...a,
+        account: a.account.toString(),
+        mint: a.mint.toString(),
+      })),
+      null,
       2
     )
   );

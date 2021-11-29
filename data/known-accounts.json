@@ -158,5 +158,69 @@
   {
     "coingeckoId": "usd-coin",
     "account": "XGt8MPm8DE9EbWdb3HZnah6KDqoe1JTUfQLxZcBr8ZQ"
+  },
+  {
+    "coingeckoId": "orca",
+    "account": "AAM67R1TEitE4cpk6CiYLP3MWTQkSLDUHENjv7cKef9Q"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "BtWZEBuJCS8UK1XTacuR91sq2GGuudF1S6WeSU2FwwtC"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "9QEMLfwBcgucWWk8j8adBbtgeGez6Nb8MTbPiJUqaYEV"
+  },
+  {
+    "coingeckoId": "dexlab",
+    "account": "GMGEisKzsMjq67Vu7Zd2szj8iHX7EbQ1S6573mVzS6xw"
+  },
+  {
+    "coingeckoId": "socean-staked-sol",
+    "account": "Beg6hKABKMhtac2fshKkgiwAeZbPcd7XEEN23pE798bb"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "GEEpiHH4QbQsDRCbtQiesJTTbGkqTHNuHq3s3H1QWEXy"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "2CEyCXMJZfxX24pm9LVB39XZGuwJt7F3hD4xNCxX4Wyr"
+  },
+  {
+    "coingeckoId": "star-atlas",
+    "account": "Dp8iR5iHctNR97J9vGv3xaUbhXgzcn595wqtLb8Ko5Wx"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "E7RNRmkYiAkFzcK8LmtThn4bQpJnwjxDom5hYivcw9BH"
+  },
+  {
+    "coingeckoId": "parrot-protocol",
+    "account": "95r5ucqgRMXY2M5Q8snXn2WaHweNGwxw9riLmZkiLQj"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "JDWQSFPP1jvmwooXHCRiPcdZhsdxFNgegqfvUCqKhWMC"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "5piwvAcD8yQT5x4sEutDJVkSbPJvmHjWttBJUzwJkSAm"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "HHDDV6eZv9PRXmWbhn6XQKSdVCVqwAP79Eq98FroVFSS"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "heMvmYfnYLvEQY6HdKa8TMWL66G9czAnkdeQeSSY8jB"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "2Xr3aMFghYgwyERm4LiTQBpnhtRu44nSEuaY89pSPoVT"
+  },
+  {
+    "coingeckoId": "terra-luna",
+    "account": "CokB2RwhcvCb2fgGKzjKkNAUDhyhTFyFHopMEbgm2WnW"
   }
 ]
