@@ -107,6 +107,8 @@ export const fetchAllSwaps = async (): Promise<void> => {
           }
           return {
             lp: s.poolMint.toString(),
+            reserve0: s.token0.reserves.toString(),
+            reserve1: s.token1.reserves.toString(),
             token0: s.token0.mint.toString(),
             token1: s.token1.mint.toString(),
             decimals,
