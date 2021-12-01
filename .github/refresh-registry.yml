@@ -1,0 +1,37 @@
+name: Refresh Registry
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    name: Refresh Sencha Swap Registry
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Yarn Cache
+        uses: actions/cache@v2
+        with:
+          path: ./.yarn
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-modules-
+      - run: yarn install
+      - run: yarn registry:sync
+      - run: |
+          if [ "$(git diff-index HEAD)" != '' ]; then
+            git config --global user.email "sensei-bot@sencha.so"
+            git config --global user.name "Sensei Sencha"
+            git add .
+            git commit -m "Update list"
+            git push origin HEAD
+          fi
