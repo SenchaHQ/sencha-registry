@@ -222,5 +222,41 @@
   {
     "coingeckoId": "terra-luna",
     "account": "CokB2RwhcvCb2fgGKzjKkNAUDhyhTFyFHopMEbgm2WnW"
+  },
+  {
+    "coingeckoId": "cheems",
+    "account": "37cjoCLEoW4b4XGcTB1pLsCjhQkS6GibJMKmRbz8sFN1"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "BCMxTjQ9FnEwDpd8J3C4RwFBsz79CF2ZyRAD2b2DvqBp"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "FP5LAdoF7NrKsZH8aRgZbPmuDXSZhrio4E51xieM4GhJ"
+  },
+  {
+    "coingeckoId": "cyclos",
+    "account": "3NWEnzvSJkBQwGdtJizQNYAoURFZ7Qv2UpS2rY7Z3Rqm"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "6GhxP4rKeWBakgtZKAeAoFp8QBrMAAXAAo8waRzZUKkM"
+  },
+  {
+    "coingeckoId": "apricot",
+    "account": "7s9XwM5cNz5GwNbVfWhLxvH4Vfn47kWLThqgmQRtJfhk"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "3sbThmAUfzRa9dgKh1MsUL12t9JiBYdU84TuBu4cYe2c"
+  },
+  {
+    "coingeckoId": "raydium",
+    "account": "AoGYfCss3996H3Lyy3mkw1x6MKJ1RYVM9VpFWKDSPkUw"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "G1EPWxizhdDk4uGV7HDqTWr6AKuWMVX8SByL9KeyuRKS"
   }
 ]

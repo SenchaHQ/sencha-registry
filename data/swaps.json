@@ -72,6 +72,12 @@
     "decimals": 9
   },
   {
+    "lp": "88MismC8Nzz1dzBF8EPGEYABEiTRA3mZXB8QijGETKVQ",
+    "token0": "PoLEXM5xikzieXENFvP7WwHJPorcFiCUVuMo9BAGZT3",
+    "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "decimals": 6
+  },
+  {
     "lp": "8D8GYvPNBQHva8m12cSSyAiTtTGhPX92TmBEwcVvZyE2",
     "token0": "5tN42n9vMi6ubp67Uy4NnmM5DMZYN8aS8GeB3bEDHr6E",
     "token1": "DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz",
@@ -132,9 +138,21 @@
     "decimals": 9
   },
   {
+    "lp": "Cfe2sKKsN8UGRJdXLtzVNodEyQnAGQTB4zZMKyw8o1eN",
+    "token0": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc",
+    "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "decimals": 6
+  },
+  {
     "lp": "DFwa5hqvx8onwfctB1rm4VjybvVghMSU5SDQp84GLtRU",
     "token0": "SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag",
     "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "decimals": 6
+  },
+  {
+    "lp": "DLrma6LaanMZScsQM4EwbBqF2p1NE1Sg9sANZeWey48n",
+    "token0": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "token1": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
     "decimals": 6
   },
   {
@@ -180,9 +198,21 @@
     "decimals": 6
   },
   {
+    "lp": "HiCxJLxn5h4XemBPW8gDfMhTTj8kMd1BBjLUqMDaKNFS",
+    "token0": "BRLsMczKuaR5w9vSubF4j8HwEGGprVAyyVgS4EX7DKEg",
+    "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "decimals": 6
+  },
+  {
     "lp": "J8Le9FqYK12xadDw3Mm8k37rWj4tLtHZaWs65fgFjf4F",
     "token0": "CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT",
     "token1": "CowKesoLUaHSbAMaUxJUj7eodHHsaLsS65cy8NFyRDGP",
+    "decimals": 6
+  },
+  {
+    "lp": "TjyU3baVpheseW8WC17sCFXsJUZRNCh1nGhku9h5mUn",
+    "token0": "APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt",
+    "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
     "decimals": 6
   },
   {
