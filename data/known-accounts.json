@@ -258,5 +258,13 @@
   {
     "coingeckoId": "tether",
     "account": "G1EPWxizhdDk4uGV7HDqTWr6AKuWMVX8SByL9KeyuRKS"
+  },
+  {
+    "coingeckoId": "terra-usd",
+    "account": "HBTJhaaSxn7kaZgfm5dcddnTpNDeExxytbwbdSGQVK7C"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "7aRFK7S5sgrPVHJkMtZoduMUZTGSvKnTRmobgKds1H31"
   }
 ]
