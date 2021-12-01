@@ -266,5 +266,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "7aRFK7S5sgrPVHJkMtZoduMUZTGSvKnTRmobgKds1H31"
+  },
+  {
+    "coingeckoId": "apricot",
+    "account": "9pmgWALRvFqva41P9d1tPsrG5vXR5pT4sviGeunthN6u"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "91y2qQCaDytNBebveaTRwFzJbfo1so8xMLVbqTs66apv"
   }
 ]
