@@ -274,5 +274,13 @@
   {
     "coingeckoId": "tether",
     "account": "91y2qQCaDytNBebveaTRwFzJbfo1so8xMLVbqTs66apv"
+  },
+  {
+    "coingeckoId": "grape-2",
+    "account": "Dxs74PTk4BE51Lb3VVyGRpKx7K7fumC5U9HGDonzQGyo"
+  },
+  {
+    "coingeckoId": "star-atlas",
+    "account": "2vzVn6nFRte7ApStGpRDDZHW273DwrjBNazvF1dAELs2"
   }
 ]
