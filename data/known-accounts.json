@@ -282,5 +282,13 @@
   {
     "coingeckoId": "star-atlas",
     "account": "2vzVn6nFRte7ApStGpRDDZHW273DwrjBNazvF1dAELs2"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "FJRh2fz7cNR1KM5BHCLMQwkcDyET2CHZEPxUz4uvB1Yw"
+  },
+  {
+    "coingeckoId": "genopets",
+    "account": "AbZkAprpkALhnuNJUD8XGALkn5Pp3KP9Ku9wmDppfMFV"
   }
 ]
