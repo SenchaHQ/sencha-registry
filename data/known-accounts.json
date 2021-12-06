@@ -298,5 +298,13 @@
   {
     "coingeckoId": "cope",
     "account": "F6HeTnrWp8hSBQPhNG62mnHL4otBcSP46b2dTerj63hS"
+  },
+  {
+    "coingeckoId": "samoyedcoin",
+    "account": "Ctn5GHUgWiiB1rZRznqjvessQkXMLstcxehPoaHqdZQ6"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "CVMFdS3Sg8xfwSRZFFEYVyi8DsP11HcZ3oo4sKNa9aje"
   }
 ]
