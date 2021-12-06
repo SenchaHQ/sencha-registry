@@ -256,6 +256,14 @@
     "decimals": 9
   },
   {
+    "lp": "Ec3R2YQnbQ7T4NHiTGsHYG7FB3pCivmiBwGv7ggJUPda",
+    "reserve0": "gSNoVxP4ib8izVvcH2FuVUnRdJHvZKwejHhXQkpjHW7",
+    "reserve1": "Ch9DCTY1Yeo43GscqYjDDizBfe52iA13JiWSJLQgHvxe",
+    "token0": "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW",
+    "token1": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "decimals": 6
+  },
+  {
     "lp": "FKZZ9yHwgHSXgwhq1AcWSFiHKGegzoeLeJqDtNSFjAUd",
     "reserve0": "777YSjESphfGLTExbAFNmn5V4oW4Q4mjj3vGwPoAk4fL",
     "reserve1": "2w4fH8hMmg8rMYoARU7k1ttPxmjM1Dq7FvccixHfgHE8",

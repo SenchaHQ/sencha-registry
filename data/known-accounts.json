@@ -306,5 +306,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "CVMFdS3Sg8xfwSRZFFEYVyi8DsP11HcZ3oo4sKNa9aje"
+  },
+  {
+    "coingeckoId": "solanium",
+    "account": "gSNoVxP4ib8izVvcH2FuVUnRdJHvZKwejHhXQkpjHW7"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "Ch9DCTY1Yeo43GscqYjDDizBfe52iA13JiWSJLQgHvxe"
   }
 ]
