@@ -314,5 +314,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "Ch9DCTY1Yeo43GscqYjDDizBfe52iA13JiWSJLQgHvxe"
+  },
+  {
+    "coingeckoId": "liq-protocol",
+    "account": "3c6JHEB6RXDiYr5MyVPd7BGb5bYCaQH6WgFxWuUX1bLi"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "CGf9piDFukJNRU7Uzz7n6SBf3aoN6YrXGQPgW42NXqUC"
   }
 ]
