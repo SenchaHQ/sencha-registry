@@ -330,5 +330,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "46Z8eZZwY1kVo3eNVXmbJo9gVjar6GQ7kvKXapa24kyq"
+  },
+  {
+    "coingeckoId": "matrixetf",
+    "account": "CKN23ouW15nQav863DZJG1p9S2ugkBbp1fgnuoDf6ksQ"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "35vGehwp4M6pkmNYo4m6vYRLLfEKQLoddQaGRpSjutBP"
   }
 ]
