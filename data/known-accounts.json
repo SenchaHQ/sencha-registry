@@ -338,5 +338,17 @@
   {
     "coingeckoId": "usd-coin",
     "account": "35vGehwp4M6pkmNYo4m6vYRLLfEKQLoddQaGRpSjutBP"
+  },
+  {
+    "coingeckoId": "almond",
+    "account": "vXiBRdbwMot4LNFoXFg1aAzCDrztDPMa9byE2d7ynvg"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "AVKJ3N96TF7r4GXL4fsM5QTLEdrfjxkYL1zpr3a6ZhQj"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "6tStTP9TGwFhkezkaSsaZzP5P8bmSfFXmU5xyjVd3ijA"
   }
 ]
