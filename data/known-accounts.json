@@ -366,5 +366,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "BNV7QFfkZQrCpY3aYyGabXGJ72CAGgmXykmWJZ4aPP2M"
+  },
+  {
+    "coingeckoId": "orca",
+    "account": "GH9RZBZJgqfeZBhCTbXcTTXNkR5vDRyCuwcGiHkv32VZ"
+  },
+  {
+    "coingeckoId": "apricot",
+    "account": "4KZJmfdPPforScKujX88EE2oAWoX1ccGy2dJZi7Sc2VH"
   }
 ]
