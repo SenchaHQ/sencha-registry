@@ -358,5 +358,13 @@
   {
     "coingeckoId": "parrot-usd",
     "account": "2KKTZLWgk9Gupt6QtfXU5x6HvZr8Qg59pJv4RvBNyRJa"
+  },
+  {
+    "coingeckoId": "apricot",
+    "account": "DSXSn7RgBM53ZHhWLaBKdEoAeB4xsG2MiBMpnHG1rMAv"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "BNV7QFfkZQrCpY3aYyGabXGJ72CAGgmXykmWJZ4aPP2M"
   }
 ]
