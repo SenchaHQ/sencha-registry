@@ -374,5 +374,13 @@
   {
     "coingeckoId": "apricot",
     "account": "4KZJmfdPPforScKujX88EE2oAWoX1ccGy2dJZi7Sc2VH"
+  },
+  {
+    "coingeckoId": "almond",
+    "account": "HiAAgGUuawRzE1iMeg7smtvRcXMfzFmPzMFjjjg22NnU"
+  },
+  {
+    "coingeckoId": "tether",
+    "account": "H8Bpy4tngkXGZTvT636eDDj6Gjmrmuhin8R6HgSjvKZ5"
   }
 ]
