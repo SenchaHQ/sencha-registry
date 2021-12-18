@@ -406,5 +406,13 @@
   {
     "coingeckoId": "oogi",
     "account": "EZoscb2hU4MFbYT14hZsQmjYQGvGgPdvA5nCHayCjkdn"
+  },
+  {
+    "coingeckoId": "soldoge",
+    "account": "BEnQT5FYyfUk9nsKT2Z3GxtUMwTrzTgCdvUkMWUZEv1o"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "3mSE3BS54JgJhRPTvU6fgeHvKYMekNWJg6erqNkAVoir"
   }
 ]
