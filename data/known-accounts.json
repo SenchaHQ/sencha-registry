@@ -414,5 +414,9 @@
   {
     "coingeckoId": "usd-coin",
     "account": "3mSE3BS54JgJhRPTvU6fgeHvKYMekNWJg6erqNkAVoir"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "4r1XUFruxHcHDgXCKGa4MVAEU48Xa6teusZjK6G2xXQW"
   }
 ]
