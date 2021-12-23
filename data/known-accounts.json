@@ -430,5 +430,9 @@
   {
     "coingeckoId": "tether",
     "account": "7Co2rUpMiSqDaubPiaCe9EeWfCQUhNEXcyUU6CQkSU8s"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "8W4GXi22hFKDiadzfYBV3KUSCAQ3169DnSRH5FkA1P1g"
   }
 ]
