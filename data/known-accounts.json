@@ -466,5 +466,17 @@
   {
     "coingeckoId": "usd-coin",
     "account": "Fv84uTR1Y27jY7QQ1jkVckDatKSztuQZKE4Maaqk4XuP"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "AGD9MAz8NpMB47i1xQK1PQnsJGDt6JFi17yMjk6XU6cv"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "4HRSeAGBzA9eXQMX5iU9d2WGSpJbKaEbvs2cC4icFmHS"
+  },
+  {
+    "coingeckoId": "aldrin",
+    "account": "7wMZVJkekK6utRNvkqAbKcE2kNeWtDsR4JygPiQmMRdp"
   }
 ]
