@@ -450,5 +450,21 @@
   {
     "coingeckoId": "usd-coin",
     "account": "6jSeUUQuYfZDzzSgxb4dH2zhRjRVLVuYuXjcQ5dcX24A"
+  },
+  {
+    "coingeckoId": "saber",
+    "account": "GFvjPu1gg6XAhLyvuwjJP2CY3h1HWzjVuG666HxURVMj"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "AB7sfbBhyS4bxF3arPxBhekqJrPyD8ByooEb53uyJdgC"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "HT1i8ddqQRdaaivvvqbv8xzThsPeieY2M2K1HsanjwXN"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "Fv84uTR1Y27jY7QQ1jkVckDatKSztuQZKE4Maaqk4XuP"
   }
 ]
