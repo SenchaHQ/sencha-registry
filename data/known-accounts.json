@@ -442,5 +442,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "39YYvYS3GLcwGHy83KadKMxvFjFD3U48HHEY6Q3oqaeq"
+  },
+  {
+    "coingeckoId": "star-atlas",
+    "account": "GrN5a8pyvhru2gGuHortzUkC2a6D7QSrauQFeYaUxxoj"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "6jSeUUQuYfZDzzSgxb4dH2zhRjRVLVuYuXjcQ5dcX24A"
   }
 ]
