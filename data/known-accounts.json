@@ -438,5 +438,9 @@
   {
     "coingeckoId": "sunny-aggregator",
     "account": "9kYqqDK9A9Q8gmyCfyECm6RU3U67DJeJxYoh5BDCKQhi"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "39YYvYS3GLcwGHy83KadKMxvFjFD3U48HHEY6Q3oqaeq"
   }
 ]
