@@ -482,5 +482,9 @@
   {
     "coingeckoId": "defi-land",
     "account": "H8oSZGsYPWuXQ9eiMoRJ2VMboX1VCwiTxGtAreVbqKsE"
+  },
+  {
+    "coingeckoId": "terra-usd",
+    "account": "2ZcqqJu4NzyWGFeKqMYrBjtXF5HiheA6CnJru7Fsebmd"
   }
 ]
