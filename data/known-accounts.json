@@ -494,5 +494,13 @@
   {
     "coingeckoId": "solana",
     "account": "FXkpMGqPsZfmmZuPaZMPGRs2WT5vsT7rjo5AuHBypKt3"
+  },
+  {
+    "coingeckoId": "parrot-protocol",
+    "account": "3bqVSBUwCHwKLq1YuBvqUA6rFCBLuTrqrnWJnvtF6H7x"
+  },
+  {
+    "coingeckoId": "solana-inu",
+    "account": "DjhGWHiKf2Sn7ZTNmthdr5YXHXELjmWXtME2iSAqwsBT"
   }
 ]

@@ -448,6 +448,14 @@
     "decimals": 6
   },
   {
+    "lp": "FYQ3tQJBX8bGRPjBKEKeNuwwxxSWqpZFiX7kLggdU5QR",
+    "reserve0": "3bqVSBUwCHwKLq1YuBvqUA6rFCBLuTrqrnWJnvtF6H7x",
+    "reserve1": "DjhGWHiKf2Sn7ZTNmthdr5YXHXELjmWXtME2iSAqwsBT",
+    "token0": "PRT88RkA4Kg5z7pKnezeNH4mafTvtQdfFgpQTGRjz44",
+    "token1": "5jFnsfx36DyGk8uVGrbXnVUMTsBkPXGpx6e69BiGFzko",
+    "decimals": 9
+  },
+  {
     "lp": "Fucjn648JkLme1SWqRwwrMxW6WLv8jYzqa72PrcxCAAe",
     "reserve0": "9N5WXgG8mgsayzmeA8ifJWZEaodZbepwuvLhyuUzoeHs",
     "reserve1": "A4R431PcQxB93E6TiHKoU3vVqSTUa7wbTtTNaUR7uFnm",
