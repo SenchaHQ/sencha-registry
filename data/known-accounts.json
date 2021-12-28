@@ -486,5 +486,13 @@
   {
     "coingeckoId": "terra-usd",
     "account": "2ZcqqJu4NzyWGFeKqMYrBjtXF5HiheA6CnJru7Fsebmd"
+  },
+  {
+    "coingeckoId": "socean-staked-sol",
+    "account": "FvKRN2gz936LFTa8v218NHgube9sNYsRUTEz6crMnPSY"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "FXkpMGqPsZfmmZuPaZMPGRs2WT5vsT7rjo5AuHBypKt3"
   }
 ]
