@@ -502,5 +502,9 @@
   {
     "coingeckoId": "solana-inu",
     "account": "DjhGWHiKf2Sn7ZTNmthdr5YXHXELjmWXtME2iSAqwsBT"
+  },
+  {
+    "coingeckoId": "saber",
+    "account": "9SsZW6VP5DBMSA9yMRUHosVBepiS3bv5zZtxSTREKA4A"
   }
 ]
