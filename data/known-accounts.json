@@ -510,5 +510,9 @@
   {
     "coingeckoId": "wipemyass",
     "account": "23r63DdprWLJ55M3XsxH59dwTKQhQSHdEFo3KAgMmg1m"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "7JbgJwU9q9yATHykmE1oCQC4aonqtnnVAhBaj7vXFbYJ"
   }
 ]
