@@ -522,5 +522,17 @@
   {
     "coingeckoId": "parrot-protocol",
     "account": "2asZVhX5nFK62cQk8YkjoEmvWSnqJSniX9pQEZwgTurX"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "3dS6Lq8t65rPGhEw4Uh6gEDhTp3ya3hmHsUhS4zirnR2"
+  },
+  {
+    "coingeckoId": "wipemyass",
+    "account": "B1GJvZWZaUREu6my5bRpvDvsYhim8dQGR75bjcXzFjRz"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "DcypPFGaNjHqP92RCyK7roqxyAE4QuaZqXxJAAR91CXc"
   }
 ]
