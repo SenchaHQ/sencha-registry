@@ -518,5 +518,9 @@
   {
     "coingeckoId": "usd-coin",
     "account": "9afeEGBZKBMZQLkpC1Qerx4fuoVbkFeTFAExLqKbakrc"
+  },
+  {
+    "coingeckoId": "parrot-protocol",
+    "account": "2asZVhX5nFK62cQk8YkjoEmvWSnqJSniX9pQEZwgTurX"
   }
 ]
