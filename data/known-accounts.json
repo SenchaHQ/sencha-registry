@@ -538,5 +538,9 @@
   {
     "coingeckoId": "usd-coin",
     "account": "6BiKUaGCiMepBDAvgzeqziBmL2KHzKCqW9u1wKo68MV6"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "6cGUrkKSFqcLebRAdacUpmUtt4DmjCC38nLCUSiVoh92"
   }
 ]
