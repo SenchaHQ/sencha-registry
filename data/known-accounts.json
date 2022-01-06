@@ -550,5 +550,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "hbCTfjyk82skiEyeX7yJuRodK4vsfWyiDvjc1wRJh3M"
+  },
+  {
+    "coingeckoId": "solana-inu",
+    "account": "89vcYUN29yXWTPjQJnmxjB79KxPpAupKKHfPR9MBzWHN"
+  },
+  {
+    "coingeckoId": "wipemyass",
+    "account": "8FsYQ4oFuBAooHmuMdkonr5Y3FBmP3DYEsgGN5wjwHj3"
   }
 ]
