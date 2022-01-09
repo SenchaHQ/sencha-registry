@@ -558,5 +558,9 @@
   {
     "coingeckoId": "wipemyass",
     "account": "8FsYQ4oFuBAooHmuMdkonr5Y3FBmP3DYEsgGN5wjwHj3"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "C1Bnb4k9mSvShbUN5J1LTZJTSgU5sem4RtGciXG1gb2F"
   }
 ]
