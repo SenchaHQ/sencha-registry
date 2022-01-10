@@ -562,5 +562,13 @@
   {
     "coingeckoId": "solana",
     "account": "C1Bnb4k9mSvShbUN5J1LTZJTSgU5sem4RtGciXG1gb2F"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "DYXBU6KvpL94f9XPPJD2FmfHAYtqi8wyAuYZ158YABo8"
+  },
+  {
+    "coingeckoId": "parrot-usd",
+    "account": "RjB5ncgSYAMSsvTdTF6XN7AgCXoWuyDhitxYJKgie2H"
   }
 ]
