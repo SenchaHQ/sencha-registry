@@ -582,5 +582,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "8f76Vzf7p3rpYFVNb32sLr7PgZyr1TMgVyiFztSBq1Cq"
+  },
+  {
+    "coingeckoId": "port-finance",
+    "account": "DeZx1iuC2KAUGfZ3tqhzaPndwiNQTVvXcU5QCGT1Toja"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "Ap8R9DUsvyGXMuVvDF88AQtqwLgoPKMBMJrgXFaphzuB"
   }
 ]
