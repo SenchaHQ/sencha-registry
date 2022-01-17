@@ -590,5 +590,9 @@
   {
     "coingeckoId": "usd-coin",
     "account": "Ap8R9DUsvyGXMuVvDF88AQtqwLgoPKMBMJrgXFaphzuB"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "Gk3Z5WezCV3MiKgC1Vg5erRSkWf7B1sVFnLSBdL4PbEb"
   }
 ]
