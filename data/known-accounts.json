@@ -602,5 +602,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "HFNzwJuJSeMEyzcReQXewvfRUCnWrqHfJBsFQSGWrmMJ"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "5WBSgWusxMTX5mqYhAxaEeiJZDVmADYvv6PTPBPFBqhk"
+  },
+  {
+    "coingeckoId": "bonfida",
+    "account": "5AitWmUhQDhqkLRWa8VFw2AZ9sqNEjbCZBqJS4CRBe5B"
   }
 ]
