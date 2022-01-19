@@ -208,6 +208,14 @@
     "decimals": 6
   },
   {
+    "lp": "6LiTdPQuNLP5G9V2GL8iddgdWJVaXFeD4yWT2H4GjR7u",
+    "reserve0": "GgmJPJJm2nfqiybv5w81nC79kYjQvi1vabFpFu53tMUk",
+    "reserve1": "ANxbY3NRhtk6BSEKUCwiZ5qoP4fGio2H4RGzoZUR415Z",
+    "token0": "CowKesoLUaHSbAMaUxJUj7eodHHsaLsS65cy8NFyRDGP",
+    "token1": "DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz",
+    "decimals": 9
+  },
+  {
     "lp": "6QUUMy9CxjyhHbfh1YWP4iR9WwqYUMbwkB4aoLJahWp9",
     "reserve0": "6JSBuf8i4RGvxjPDyn9NZnVWFwG7umyRa7Wa1JRKt7qX",
     "reserve1": "EsPfGTpLtZPnipPiLY3rnRtGKVHkYgzvRrY5xuzg5Xva",
@@ -574,6 +582,14 @@
     "token0": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
     "token1": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
     "decimals": 6
+  },
+  {
+    "lp": "FKrNnnwe4yGL8jhw45gDEvgZuksw8LHFDZqBr11Yrtby",
+    "reserve0": "6swZe1ChinV1RaCsmyzJS9J21eSfLrAebd5A6SJmMFzm",
+    "reserve1": "ExcZvpJHiP7acGifAYv3ADjH5h8fH31ed43GeqSTgJd6",
+    "token0": "SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag",
+    "token1": "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp",
+    "decimals": 9
   },
   {
     "lp": "FYQ3tQJBX8bGRPjBKEKeNuwwxxSWqpZFiX7kLggdU5QR",

@@ -610,5 +610,17 @@
   {
     "coingeckoId": "bonfida",
     "account": "5AitWmUhQDhqkLRWa8VFw2AZ9sqNEjbCZBqJS4CRBe5B"
+  },
+  {
+    "coingeckoId": "cropperfinance",
+    "account": "ANxbY3NRhtk6BSEKUCwiZ5qoP4fGio2H4RGzoZUR415Z"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "6swZe1ChinV1RaCsmyzJS9J21eSfLrAebd5A6SJmMFzm"
+  },
+  {
+    "coingeckoId": "aldrin",
+    "account": "ExcZvpJHiP7acGifAYv3ADjH5h8fH31ed43GeqSTgJd6"
   }
 ]
