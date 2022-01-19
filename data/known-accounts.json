@@ -622,5 +622,13 @@
   {
     "coingeckoId": "aldrin",
     "account": "ExcZvpJHiP7acGifAYv3ADjH5h8fH31ed43GeqSTgJd6"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "6T3mCupiSkRNJxLFjcpt5TyFqPytQ4kuoPBUjS3rLJan"
+  },
+  {
+    "coingeckoId": "terra-luna",
+    "account": "DGzHTxheYAFyyXTBkjsp43npAmiFHDxpirKKFSBdenZo"
   }
 ]
