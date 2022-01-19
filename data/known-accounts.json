@@ -630,5 +630,13 @@
   {
     "coingeckoId": "terra-luna",
     "account": "DGzHTxheYAFyyXTBkjsp43npAmiFHDxpirKKFSBdenZo"
+  },
+  {
+    "coingeckoId": "sunny-aggregator",
+    "account": "CWS2vrfwHraLuXZNUFmytCfBCaurUEtEMCRVdcnH491a"
+  },
+  {
+    "coingeckoId": "solana",
+    "account": "4bWpHXwWEo7UJyNSpAcW3KcAe4JEmSNzuvDREDARPXuq"
   }
 ]
