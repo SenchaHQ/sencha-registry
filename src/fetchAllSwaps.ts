@@ -6,9 +6,11 @@ import { StaticTokenListResolutionStrategy } from "@solana/spl-token-registry";
 import type { AccountInfo, PublicKey } from "@solana/web3.js";
 import { Connection, Keypair } from "@solana/web3.js";
 import * as fs from "fs/promises";
-import { zip } from "lodash";
+import { chunk, zip } from "lodash";
 
 const TOKEN_LIST = new StaticTokenListResolutionStrategy().resolve();
+
+const MAX_CHUNK = 100;
 
 export const fetchAllSwaps = async (): Promise<void> => {
   const provider = SolanaProvider.load({
@@ -16,11 +18,20 @@ export const fetchAllSwaps = async (): Promise<void> => {
     wallet: new SignerWallet(Keypair.generate()),
   });
 
+  const getMultipleAccountsInfoChunked = async (keys: PublicKey[]) => {
+    const keyChunks = chunk(keys, MAX_CHUNK);
+    return (
+      await Promise.all(
+        keyChunks.map(async (c) => {
+          return await sencha.provider.connection.getMultipleAccountsInfo(c);
+        })
+      )
+    ).flat();
+  };
+
   const sencha = SenchaSDK.load({ provider });
   const metas = await sencha.loadFactory().fetchAllSwapMetas();
-  const swaps = await sencha.provider.connection.getMultipleAccountsInfo(
-    metas.map((m) => m.swap)
-  );
+  const swaps = await getMultipleAccountsInfoChunked(metas.map((m) => m.swap));
 
   const swapInfos = swaps
     .filter((s): s is AccountInfo<Buffer> => !!s)
@@ -34,11 +45,9 @@ export const fetchAllSwaps = async (): Promise<void> => {
   const mintKeys = swapInfos.map((swap) => swap.poolMint);
   const mints = zip(
     mintKeys,
-    (
-      await sencha.provider.connection.getMultipleAccountsInfo(
-        swapInfos.map((swap) => swap.poolMint)
-      )
-    ).map((s) => (s ? deserializeMint(s.data) : null))
+    (await getMultipleAccountsInfoChunked(mintKeys)).map((s) =>
+      s ? deserializeMint(s.data) : null
+    )
   );
 
   const accounts: { coingeckoId: string; account: PublicKey }[] = [];
