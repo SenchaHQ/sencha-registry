@@ -782,5 +782,9 @@
   {
     "coingeckoId": "samoyedcoin",
     "account": "EcRwsuNWp5nekUKXz1tzXbvNV66MUpcfQSXP3pM5aMwd"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "4qUbRPjjGj6hGFp5qDiCNGhxffha5KWiBr2UfnKVnjKm"
   }
 ]
