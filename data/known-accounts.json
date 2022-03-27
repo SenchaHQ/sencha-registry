@@ -802,5 +802,13 @@
   {
     "coingeckoId": "usd-coin",
     "account": "ErTWPDWSFDsnoY6igQxdvx6V3B6oNZjXGE3HEgvR7ZBo"
+  },
+  {
+    "coingeckoId": "serum",
+    "account": "4Q7KtPJ2GjeT9QQ8qHoPGBtPXXVcMmqvhsLhKhhEMxHm"
+  },
+  {
+    "coingeckoId": "terra-usd",
+    "account": "96LkGY5BGcBP7AZeqJP6nHmRXXFw224UiJFG9RGmiEnM"
   }
 ]
