@@ -810,5 +810,13 @@
   {
     "coingeckoId": "terra-usd",
     "account": "96LkGY5BGcBP7AZeqJP6nHmRXXFw224UiJFG9RGmiEnM"
+  },
+  {
+    "coingeckoId": "terra-usd",
+    "account": "FLKr6iR7NGEqzAYN5CxjYBpc81U3Pxm2t3wximq2GTWd"
+  },
+  {
+    "coingeckoId": "frax",
+    "account": "GZhB2pVVknbAwngdELRWh2jmU4wDCGsHcAH8bFGvfPsp"
   }
 ]
