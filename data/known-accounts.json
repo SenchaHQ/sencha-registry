@@ -826,5 +826,9 @@
   {
     "coingeckoId": "sunny-aggregator",
     "account": "EddDKAsnN4T3RJdFZb2eLpP42RiwuEJ199c5z6dyeeuv"
+  },
+  {
+    "coingeckoId": "weth",
+    "account": "4FfVmQWf7NxMM9xTuqjiAB8J5VzymNva1fwnrHw9g1PJ"
   }
 ]
