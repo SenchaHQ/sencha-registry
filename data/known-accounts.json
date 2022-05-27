@@ -830,5 +830,9 @@
   {
     "coingeckoId": "weth",
     "account": "4FfVmQWf7NxMM9xTuqjiAB8J5VzymNva1fwnrHw9g1PJ"
+  },
+  {
+    "coingeckoId": "usd-coin",
+    "account": "CKSfzvnHeFZ8QeVnBN56stBQoTx9Rx75BaUJFc9jkQCV"
   }
 ]
