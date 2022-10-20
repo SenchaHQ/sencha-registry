@@ -850,5 +850,9 @@
   {
     "coingeckoId": "usd-coin",
     "account": "G5Nxbb9JULTcg9wT7KQmiUvLKYQUsLpU7C4GiuiTmKho"
+  },
+  {
+    "coingeckoId": "saber",
+    "account": "APmdWCGmy4pq4u56UwvJ6cLq87DsatjASTC86jt5rDGg"
   }
 ]
